@@ -5,3 +5,17 @@ Welcome to this Papa Parse + FileSaverr Tutorial. I made this project as an expe
 
 PapaParser - is a great and powerful CSV Parser for JavaScript.
 
+# HTML
+
+Here is the HTML for the project:
+
+<form class="form-inline">
+		<div class="form-group">
+  			<label for="files">Upload a CSV formatted file:</label>
+  				<input type="file" id="files"  class="form-control" accept=".csv" required />
+		
+ 			<button type="submit" id="submit" class="btn btn-primary" >Submit</button>
+ 		</div>
+	</form>
+	
+
