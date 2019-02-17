@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Parse</title>
+<title>Parse CSV to JSON</title>
 	
-	<link rel="stylesheet" type="text/css" href="styles.css"  />
+	
 	<script src="https://fastcdn.org/Papa-Parse/4.1.2/papaparse.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type = "text/javascript" scr="papaparse.js"></script>
@@ -31,6 +31,7 @@
 <script type="application/javascript">
 	
 		$(document).ready(function(){
+			
 			$('#submit').on("click",function(e){
 				e.preventDefault();
 				if (!$('#files')[0].files.length){
